@@ -23,7 +23,7 @@ Chris Biscardi: 00:00 Now that we know our image generation function works in pr
 
 00:44 This is not exactly how it's going to look when we share it on Twitter, because there are **some differences between the Card validator and the way that the representation of the dimensions shows up in the tweet unfurl**.
 
-00:54 Let's make an actual tweet. Once we're on Twitter, we can go to the Tweet button and paste in our `URL`. I'll say something like, "Just testing, going to delete this in a second."
+00:54 Let's make an actual tweet. Once we're on Twitter, we can go to the Tweet button and paste in our `URL`. I'll say something like, _"Just testing, going to delete this in a second."_
 
 ![](../images/08-tweet.png)
 
@@ -31,4 +31,4 @@ Chris Biscardi: 00:00 Now that we know our image generation function works in pr
 
 01:16 Unfortunately, **every time somebody hits our HTML page, this image is going to be regenerated**. That's not great, because it will mean that I have to run more functions for more time with more memory than I would **if we had generated it once and then cached it**.
 
-01:33 We can cache OpenGraph images because typically they don't change a lot from deploy to deploy.
+01:33 **We can cache OpenGraph images because typically they don't change a lot from deploy to deploy.**
