@@ -1,6 +1,6 @@
 Chris Biscardi: 00:00 We can generate an image, but unfortunately, **we currently can't change the title, we can't change the tags and we can't change the username**. If you want this exact image, what we have right now is great. If you don't and you want to change the title, we need to make some adjustments.
 
-![](../images/09-image-card.png)
+![](../images/09-images/09-image-card.png)
 
 00:16 We'll need to make changes in two places. One is the React component we're rendering to the page to generate the image. The second is in the Playwright script where we render the actual component. We're going to take advantage of the window here.
 

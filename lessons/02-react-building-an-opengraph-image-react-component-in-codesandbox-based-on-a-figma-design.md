@@ -23,7 +23,7 @@ import { jsx, Global } from "@emotion/core";
 import { jsx, Global } from '@emotion/core'
 ```
 
-![Zen Mode](../images/02-zen-mode.png)
+![Zen Mode](../images/02-images/02-zen-mode.png)
 
 01:33 **The CSS prop allows us to use all the features of CSS right in our JSX.** We'll set the `width` and the `height` to `1200` and `630`, which is the same size as our Open Graph image on the left. The first thing we want to do is get this gradient in as a background color for our `div`. If we switch back to the gradient magic page, we can copy CSS out that represents our background.
 
@@ -88,7 +88,7 @@ import { jsx, Global } from '@emotion/core'
 
 04:19 **We can separate the text on the top, which is our title, from a box bounding the bottom**, which will allow us to use Flexbox to separate these two to the top and the bottom of the box. Again, we'll use another Flexbox to separate the list from the span that contains the `username` inside of the bottom `div`.
 
-![Card Padding](../images/02-card-padding.png)
+![Card Padding](../images/02-images/02-card-padding.png)
 
 04:37 If we specify a text color for the list and for the `span`, we see that we have actually our title on the left and the list and the span on the right. That's not quite what we want, so we use `flexDirection: "column"` on the containing `div` that contains the `h1`, and the lower `div` to put them into a `column`.
 
@@ -165,7 +165,7 @@ import { jsx, Global } from '@emotion/core'
 
 07:57 We'll start with the `fontSize: 48`. If you click this little _Open In New Window_ button in CodeSandbox, we can pop out the frame and look more at the actual content of our Open Graph image.
 
-![Open In New Window](../images/02-open-new.png)
+![Open In New Window](../images/02-images/02-open-new.png)
 
 We can always refer back to Figma. **We've come far enough at this point that we can work at the spacing out ourselves.**
 
