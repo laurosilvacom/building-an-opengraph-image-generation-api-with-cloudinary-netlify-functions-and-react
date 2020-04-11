@@ -1,4 +1,4 @@
-Chris Biscardi: 00:00 The first thing that we're going to do to is actually design the images in Figma. Now, Ryan Warner has provided this nice template for us so that we don't have to do a bunch of the setup work for the sizing and things like that, so we're going to take a look at it.
+Chris Biscardi: 00:00 **The first thing that we're going to do to is actually design the images in Figma.** Now, Ryan Warner has provided this nice template for us so that we don't have to do a bunch of the setup work for the sizing and things like that, so we're going to take a look at it.
 
 00:16 [This takes us to the Figma community resources page](https://www.figma.com/community/file/820337605519256142) for the template, at which point we can go up to the right if we already have a Figma account, which you can see that I do in the top left -- I am actually signed in right now. We can go up to the top right and click 'Duplicate'.
 
