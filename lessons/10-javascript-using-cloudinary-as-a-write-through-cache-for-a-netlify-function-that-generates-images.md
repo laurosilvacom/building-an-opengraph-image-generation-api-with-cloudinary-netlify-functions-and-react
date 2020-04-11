@@ -1,4 +1,5 @@
-Instructor: 00:01 Now that we can generate anything we want with this open-graph image, any title, any tags, any author name, it's time to make sure that it doesn't get called more than once to generate the same image.
+Chris Biscardi: 00:01 Now that we can generate anything we want with this open-graph image, any title, any tags, any author name, it's time to make sure that it doesn't get called more than once to generate the same image.
+
 00:13 If you look in the bottom left of the screen, every time I refresh, you can tell it takes a little bit of time far longer than just returning an image would take. To fix this, we can use Cloudinary, but we're not going to use Cloudinary in the way that you might think.
 
 00:27 We could, of course, generate this image, save it out, and then uploaded the Cloudinary manually. What we are going to do is use Cloudinary as a write-through cache. This means that the URL we are going to use is going to hit Cloudinary first. If it has the image cache, it's going to return the image.
