@@ -1,4 +1,4 @@
-Instructor: 0:00 The next thing we're going to do is install [Playwright](https://github.com/microsoft/playwright), which is the library that will run headless browsers for us, whether it's Chromium-based, Firefox, or Webkit-based. If we install Playwright, the regular package, it installs all three browsers for us for convenience.
+Chris Biscardi: 0:00 The next thing we're going to do is install [Playwright](https://github.com/microsoft/playwright), which is the library that will run headless browsers for us, whether it's Chromium-based, Firefox, or Webkit-based. If we install Playwright, the regular package, it installs all three browsers for us for convenience.
 
 0:14 **This is a lot, and our deploy will actually fail if our package size gets too big.** If you look in packages, you can see that there's `Playwright Chromium`, `Playwright Firefox`, and `Playwright Webkit`, which are each different packages corresponding to their respective browsers.
 
