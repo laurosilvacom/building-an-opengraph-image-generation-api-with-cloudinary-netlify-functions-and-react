@@ -14,7 +14,7 @@ Import React from "react"
 import { jsx, Global } from "@emotion/core";
 ```
 
-01:06 To pass in variables to change different things about, say, the background, it's more useful to be able to do that straight through JavaScript than to have to rewrite CSS classes. Since the function that we write won't be running in anybody's browser, we can use whatever we want.
+01:06 To pass in variables to change different things about, say, the background, it's **more useful to be able to do that straight through JavaScript than to have to rewrite CSS classes**. Since the function that we write won't be running in anybody's browser, we can use whatever we want.
 
 01:20 We can enter [Zen mode](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_zen-mode) to get rid of the top bar and click on the menu on the left on the currently active Explorer pane to get rid of the sidebar. We'll keep the console around just in case. **We can also get rid of React because we're not using `createElement`.**
 
@@ -189,7 +189,7 @@ We can always refer back to Figma. **We've come far enough at this point that we
 
 08:47 We can bump the font size of the `li` elements and the `username`. Notice, that if we bump the font size, which we've set on the global level, all of our spacing increases as well. This is because we specified our padding in `rems`, which is relative to the `root` font size, in this case `24`, which produces a decent effect.
 
-09:05 However, we did have pretty specific spacing requirements for how much of the outside border we show. Since that was `40px`, I'll change it to `40px`. Because we already know how big this square is going to be when it shows up as an Open Graph image, pixels allows us a little bit of more control when it comes to the final image.
+09:05 However, **we did have pretty specific spacing requirements for how much of the outside border we show.** Since that was `40px`, I'll change it to `40px`. Because we already know how big this square is going to be when it shows up as an Open Graph image, pixels allows us a little bit of more control when it comes to the final image.
 
 09:22 **This is one of the longer titles for my blog post. I want to make sure that it fills out enough of the space.** This is why I've bumped the font size. In other scenarios, I might have shorter blog posts, in which case I still want it to fill up a decent amount of space.
 

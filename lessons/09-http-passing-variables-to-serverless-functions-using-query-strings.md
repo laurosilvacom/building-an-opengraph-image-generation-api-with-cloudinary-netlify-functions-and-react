@@ -20,7 +20,7 @@ await page.addScriptTag({
 
 01:02 Now that our site is deployed, **we can see that the window `variables` are being used in our new OpenGraph cards, but we can't yet control it from the outside**.
 
-![](../images/09-images/preview.png)
+![](../images/09-images/09-preview.png)
 
 To do that, we'll parse the query `string`. If you remember the event argument from our `handler`, that's where our query `string` parameters come in.
 
@@ -76,6 +76,6 @@ await page.evaluate({
 
 03:49 Now that we've changed our `script` tag values to be wrapped in the proper quotes, let's refresh the function again. We can see that now we've added our quotes, we can pass in any values we want in the query `string`.
 
-![Final Image](../images/09-images/final.png)
+![Final Image](../images/09-images/09-final.png)
 
 If we put nothing in the query `string`, we get no title, the tags are empty and the author's empty.
