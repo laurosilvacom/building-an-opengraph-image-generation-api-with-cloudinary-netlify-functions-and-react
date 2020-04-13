@@ -94,15 +94,15 @@ import { jsx, Global } from '@emotion/core'
 
 ```jsx
 <div
-        css={{
-          background: "#041016",
-          margin: "40px",
-          display: "flex",
-          flex: 1,
-          flexDirection: "column",
-          justifyContent: "space-between",
-      >
-
+  css={{
+    background: '#041016',
+    margin: '40px',
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  }}
+>
 ```
 
 04:54 This puts one on top of the other. If we use `justifyContent: "space-between"`, you can see the any of the free space that's left over from that containing `div` is put between the two elements. This is what we want because we can use margins to offset them from the edges, but the space between them will always be where the extra space goes.

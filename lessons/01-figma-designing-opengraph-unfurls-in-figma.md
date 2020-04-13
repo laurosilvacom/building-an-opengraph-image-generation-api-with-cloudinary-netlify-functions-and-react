@@ -16,7 +16,7 @@ Chris Biscardi: 00:00 **The first thing that we're going to do to is actually de
 
 01:39 I'm going to leave my name in there as well. I think I'm going to leave my name in as a Twitter username rather than my actual name, but we'll see. I'm on the site called [Gradient Magic](https://www.gradientmagic.com/). It's just a site to **quickly pick a potentially interesting background** for the total Open Graph card.
 
-01:58 In this case, I'm going to go with the complex angular gradient. I think I like this one, so I'm going to make it bigger. Now, in Figma, we only have a 1,200 x 630 canvas. If we look at the size of our canvas here, we have 1,200 x 630 for this white square. To get the image, what I can do is I can open the inspect element console. You'll see that there's this large preview div.
+01:58 In this case, I'm going to go with the complex angular gradient. I think I like this one, so I'm going to make it bigger. Now, in Figma, we only have a `1,200 x 630` canvas. If we look at the size of our canvas here, we have `1,200 x 630` for this white square. To get the image, what I can do is I can open the inspect element console. You'll see that there's this large preview div.
 
 02:22 **This large preview div can be set to a height of 630 pixels.** We don't want to override the gradient, so we're going to click in here again and do a width of **1,200 pixels**. That shortens everything. We still have this X in the corner. We don't really need to care about that too much, but there is something we do need to care about.
 
@@ -76,7 +76,7 @@ Chris Biscardi: 00:00 **The first thing that we're going to do to is actually de
 
 ![Card with Tags](../images/01-images/01-card-tags.png)
 
-08:23 Note that in this case, the separator I've used is just a star on the keyboard. I don't really like that, so I'm going to choose something else. I search for [UTF-8 dot](https://www.compart.com/en/unicode/U+2022) because I know there happens to be a dot. I can go to the page, copy it out, and go back to Figma. Inside of my text box, I can now use these dots, which are much more centered and much more smooth than the dots I was using before.
+08:23 Note that in this case, the separator I've used is just a star on the keyboard. I don't really like that, so I'm going to choose something else. I search for [UTF-8 dot](https://www.compart.com/en/unicode/U+2022) because I know there happens to be a dot. I can go to the page, copy it out, and go back to Figma. **Inside of my text box, I can now use these dots,** which are much more centered and much more smooth than the dots I was using before.
 
 08:47 This could also be designed in some way, but we are actually going to use a text box when we convert this to a React component, so **I wanted to use a UTF-8 element rather than a designed circle**. Note that because this is going to be converted to an image, the UTF-8 element is fine, but if we were going to use this as text for accessibility purposes, we would need to use something that probably wasn't a UTF-8 middle dot.
 
@@ -88,9 +88,11 @@ Chris Biscardi: 00:00 **The first thing that we're going to do to is actually de
 
 09:39 I'll have to do the same for the original text, so that they're still on the same baseline. Now we've selected both of them, we can move them up and down in sequence, keeping the same baseline. **This allows us to adjust the padding between the text and the bottom of the box without having different spacing between the text and the bottom of the box**.
 
-09:56 Now, we can see our Open Graph images starting to take shape. The text on the bottom might be a little too small. This might be the size of the Open Graph image, so I think what I want to do is I want to bump the font size on the text for each of these. You can see that if I have Twitter maybe on half size of my screen, it's a little bit hard to read the tags and the author name.
+09:56 Now, we can see our Open Graph images starting to take shape. The text on the bottom might be a little too small. This might be the size of the Open Graph image, so I think what I want to do is I want to bump the font size on the text for each of these.
 
 ![Text on Twitter Card](../images/01-images/01-text-twitter.png)
+
+You can see that if I have Twitter maybe on half size of my screen, it's a little bit hard to read the tags and the author name.
 
 10:16 While I don't want these to take away from the original title, we can make them a little better and make them a little bit more readable. Now, because they're starting to get to the same size as the title, what I'm going to do is I'm going to take the font weight and scale it back.
 

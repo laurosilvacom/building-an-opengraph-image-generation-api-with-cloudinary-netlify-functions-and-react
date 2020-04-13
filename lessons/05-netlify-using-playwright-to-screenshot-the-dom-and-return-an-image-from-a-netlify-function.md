@@ -41,6 +41,8 @@ await page.setContent(`<!DOCTYPE html>
     </body>
   </html>
   `)
+
+// ... //
 ```
 
 1:28 Then we need to get the dimensions to pass to the screenshot function. To do this, we can use `page.evaluate`, which allows us to evaluate a function or a `string` of code inside of the browser context page.
